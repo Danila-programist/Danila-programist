@@ -41,8 +41,17 @@ You can see set of mostly used technologies and libraries below:
 
 ### :rocket: Projects
 
+#### [Checker Website](https://github.com/Danila-programist/checker_website)
+A Python-based website checker that verifies the status of URLs.  
+This tool helps ensure that all links on a website are active and not broken.
 
+#### [Currency Exchange](https://github.com/Danila-programist/CurrencyExchange/tree/dev)
+A backend application developed using FastAPI that provides real-time currency exchange rates.  
+Features include JWT authentication, PostgreSQL integration, and Docker deployment.
 
+#### [Weather App](https://github.com/Danila-programist/WeatherApp)
+A GUI application built with Python that allows users to check current weather conditions.  
+Utilizes the OpenWeatherMap API to fetch real-time weather data.
 
 
 
