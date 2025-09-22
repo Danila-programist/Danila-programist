@@ -6,8 +6,6 @@ I am interested in **Backend Development** 🚀
 
 ### :computer: List of technologies
 
-### :computer: List of technologies
-
 My main programming languages are **Python** and **C++**.  
 In my backend development practice, I actively use the following technologies:
 
