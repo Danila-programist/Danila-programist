@@ -17,9 +17,10 @@ In my backend development practice, I actively use the following technologies:
 - **Docker** – containerization and deployment of applications  
 - **Pytest** – writing unit and integration tests  
 - **asyncio / Aiohttp** – asynchronous programming and handling concurrent requests  
+- **Redis** – caching, message brokering, and in-memory data storage  
+- **Selenium** – browser automation and testing  
 
 I am confident in designing backend services, working with relational databases, writing tests, and deploying applications in a containerized environment.
-
 
 You can see set of mostly used technologies and libraries below:
 
@@ -35,7 +36,8 @@ You can see set of mostly used technologies and libraries below:
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
 ### :rocket: Projects
 
