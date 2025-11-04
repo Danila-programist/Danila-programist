@@ -78,7 +78,7 @@ You can see set of mostly used technologies and libraries below:
 
 ### :rocket: Projects
 
-#### [Weather App](https://github.com/Danila-programist/BeautifulTaskManager)
+#### [BeautifulTaskManager](https://github.com/Danila-programist/BeautifulTaskManager)
 A fullstack project built with FastAPI and React for task management.
 It allows users to register, authenticate via JWT, and create, edit, delete, or mark tasks as completed through an intuitive web interface.
 
