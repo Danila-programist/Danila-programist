@@ -89,7 +89,7 @@ It allows users to register, authenticate via JWT, and create, edit, delete, or 
 A backend application developed using FastAPI that provides real-time currency exchange rates.  
 Features include JWT authentication, PostgreSQL integration, and Docker deployment.
 
-#### [Two-Service LLM Consultation System]([https://github.com/Danila-programist/llm-consultation-system](https://github.com/Danila-programist/Two-service_LLM_consultation_system))
+#### [Two-Service LLM Consultation System](https://github.com/Danila-programist/llm-consultation-system](https://github.com/Danila-programist/Two-service_LLM_consultation_system)
 A distributed system for LLM-powered consultations via Telegram bot with JWT authentication and async task processing.
 
 **Architecture:** The system follows the principle of separation of concerns with two logically independent services connected only through JWT tokens:
