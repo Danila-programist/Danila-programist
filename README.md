@@ -19,7 +19,8 @@ In my backend development practice, I actively use the following technologies:
 - **Pytest** – writing unit and integration tests  
 - **asyncio / Aiohttp** – asynchronous programming and handling concurrent requests  
 - **Redis** – caching, message brokering, and in-memory data storage  
-- **Selenium** – browser automation and testing
+- **Celery** – distributed task queue for asynchronous processing
+- **RabbitMQ** – message broker for task distribution
 
 💻 Frontend
 
@@ -41,6 +42,7 @@ I am confident in designing backend services, working with relational databases,
 
 You can see set of mostly used technologies and libraries below:
 
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -54,7 +56,8 @@ You can see set of mostly used technologies and libraries below:
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -86,8 +89,16 @@ It allows users to register, authenticate via JWT, and create, edit, delete, or 
 A backend application developed using FastAPI that provides real-time currency exchange rates.  
 Features include JWT authentication, PostgreSQL integration, and Docker deployment.
 
+#### [Two-Service LLM Consultation System](https://github.com/Danila-programist/llm-consultation-system)
+A distributed system for LLM-powered consultations via Telegram bot with JWT authentication and async task processing.
+
+**Architecture:** The system follows the principle of separation of concerns with two logically independent services connected only through JWT tokens:
+- **Auth Service (FastAPI)** – manages users and issues JWT tokens
+- **Bot Service (aiogram + Celery)** – provides LLM consultations via Telegram bot
 
 
+#### [Text File Frequency Analysis Service](https://github.com/Danila-programist/text-frequency-analysis)
+A high-performance async service for statistical analysis of large text files with Excel report generation.
 
 ### 📫 Also you can contact me via:
 
