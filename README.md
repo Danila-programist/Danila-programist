@@ -97,7 +97,7 @@ A distributed system for LLM-powered consultations via Telegram bot with JWT aut
 - **Bot Service (aiogram + Celery)** – provides LLM consultations via Telegram bot
 
 
-#### [Text File Frequency Analysis Service](https://github.com/Danila-programist/text-frequency-analysis)
+#### [Text File Frequency Analysis Service](https://github.com/Danila-programist/KasperskyTesting)
 A high-performance async service for statistical analysis of large text files with Excel report generation.
 
 ### 📫 Also you can contact me via:
